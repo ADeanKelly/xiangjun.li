@@ -2,6 +2,7 @@ backend:
   name: github
   repo: ADeanKelly/xiangjun.li
   branch: master
+  automatic_deployments: true
   base_url: https://sveltia-cms-auth.otaku-voice.workers.dev
 
   commit_messages:
