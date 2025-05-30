@@ -12,7 +12,7 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 publish_mode: editorial_workflow
-media_folder: "admin/images/uploads"
+media_folder: "/public/admin/images/uploads"
 locale: 'en'
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
