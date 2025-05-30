@@ -6,9 +6,9 @@ backend:
   base_url: https://sveltia-cms-auth.otaku-voice.workers.dev
 
   commit_messages:
-    create: Create {{collection}} “{{slug}}”
-    update: Update {{collection}} “{{slug}}”
-    delete: Delete {{collection}} “{{slug}}”
+    create: Create {{collection}} “{{title}}”
+    update: Update {{collection}} “{{title}}”
+    delete: Delete {{collection}} “{{title}}”
     uploadMedia: Upload “{{path}}”
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
@@ -17,18 +17,18 @@ media_folder: "/public/admin/images/uploads"
 locale: 'en'
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    icon: Home
+    icon: Edit_Document
     sortable_fields:
       fields: [title, published_date, author]
       default:
         field: published_date
         direction: descending # default: ascending
-    label: "Blog" # Used in the UI
+    label: "Blog Posts" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime", time_format: "false" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
