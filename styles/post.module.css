@@ -40,8 +40,6 @@
     grid-column: 2;
     justify-items: end;
   }
-  .related_section .related_post {
-  }
 }
 
 @media screen and (min-width: 480px) {
