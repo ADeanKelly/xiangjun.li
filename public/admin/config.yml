@@ -12,9 +12,15 @@ backend:
     uploadMedia: Upload “{{path}}”
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 media_folder: "/public/admin/images/uploads"
 locale: 'en'
+
+# Site Information
+site_url: https://xiangjun.li/
+logo_url: #TODO
+
+# Post & Image Collections
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     icon: Edit_Document

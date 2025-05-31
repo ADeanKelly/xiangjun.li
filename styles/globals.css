@@ -1,6 +1,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Font Sizes */
+  --font-200: clamp(0.52rem, 0.49rem + 0.15vw, 0.6rem);
+  --font-250: clamp(0.61rem, 0.55rem + 0.175vw, 0.7rem);
+  --font-300: clamp(0.7rem, 0.66rem + 0.2vw, 0.8rem);
+  --font-400: clamp(0.9rem, 0.83rem + 0.24vw, 1rem);
+  --font-450: clamp(1rem, 0.99rem + 0.3vw, 1.2rem);
+  --font-500: clamp(1.1rem, 1rem + 0.47vw, 1.3rem);
+  --font-550: clamp(1.21rem, 1rem + 0.67vw, 1.53rem);
+  --font-600: clamp(1.37rem, 1.21rem + 0.8vw, 1.78rem);
+  --font-600: clamp(1.53rem, 1.32rem + 0.91vw, 1.97rem);
+  --font-700: clamp(1.71rem, 1.45rem + 1.29vw, 2.37rem);
+  --font-800: clamp(2.14rem, 1.74rem + 1.99vw, 3.16rem);
+  --font-900: clamp(2.67rem, 2.07rem + 3vw, 4.21rem);
+  --font-1000: clamp(3.34rem, 2.45rem + 4.43vw, 5.61rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,14 +29,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -38,5 +45,24 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 16px 0;
+    font-family: var(--font-family-headline);
+  }
+  h1 {
+    font-size: var(--font-700);
+  }
+  h2 {
+    font-size: var(--font-600);
+  }
+  h3 {
+    font-size: var(--font-550);
+  }
+  h4, h5, h6 {
+    font-size: var(--font-500);
   }
 }
