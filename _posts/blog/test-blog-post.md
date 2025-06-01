@@ -2,7 +2,7 @@
 layout: post
 title: Test Blog Post
 date: fpm5/30/202505
-thumbnail: /public/admin/images/uploads/DSCF5495.JPG
+thumbnail: /admin/images/uploads/DSCF5495.JPG
 ---
 Aenean tincidunt ex at diam placerat porttitor. Sed tempor velit sit amet luctus efficitur. Aenean tristique tempus tortor, suscipit euismod leo egestas blandit. Quisque vehicula tellus tempus sagittis bibendum. Nulla elit nunc, sodales vel rutrum sit amet, pharetra sed ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor nisi, gravida et arcu sit amet, pharetra maximus turpis. Cras auctor, nisi vitae bibendum pharetra, odio tortor maximus purus, quis euismod libero mi porta enim. Cras elementum venenatis consequat. Maecenas pulvinar gravida velit, et blandit orci semper a. Mauris tristique ligula ac mauris commodo varius. Mauris ornare sodales dolor sit amet elementum. Donec mollis a lacus at maximus.
 
