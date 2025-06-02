@@ -1,4 +1,6 @@
 import "@/styles/globals.css";
+import Layout from '@/components/layout';
+
 import {Molengo, Lexend} from 'next/font/google';
 const molengo = Molengo({
   weight: ['400'],
@@ -13,8 +15,11 @@ const lexend = Lexend({
 
 export default function App({ Component, pageProps }) {
     return (
-    <span className={`${molengo.variable} ${lexend.variable}`}>
-      <Component {...pageProps} />
-    </span>
+      <>
+      <Layout></Layout>
+      <span className={`${molengo.variable} ${lexend.variable}`}>
+        <Component {...pageProps} />
+      </span>
+    </>
   )
 }

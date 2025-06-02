@@ -1,0 +1,48 @@
+@media screen and (min-width: 0px) {
+  .header {
+    max-width: 100vw;
+    align-items: center;
+    position: sticky;
+    height: 128px;
+    margin: 0 0 32px;
+    padding: 24px 0 0;
+   
+      background-attachment: fixed, scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    top: -48px;
+  }
+  .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%; /* Slightly taller for movement room */
+    background-image: url('/background-image.webp');
+  background-size: cover;
+  background-position: center;
+  /* transform: translateY(-60%); */
+  z-index: 0;
+  will-change: transform;
+}
+  .header .background::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  }
+  .header_inner {
+    width: 100vw;
+    position: sticky;
+    height: 48px;
+    top: 0;
+    /* background-color: blanchedalmond; */
+  }
+  .header_inner p {
+    margin: 12px auto;
+    font-size: 24px;
+    color: #FFF;
+  }
+}

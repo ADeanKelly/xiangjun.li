@@ -4,12 +4,16 @@ import styles from '@/styles/post.module.css';
 
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 
 export default function Post({post, nextPost, prevPost}) {
 
   return (
     <>
+    <Head>
+      <title>{post.title}</title>
+    </Head>
     <article className={styles.article}>
       <Image src={post.thumbnail} alt={post.title} loading='eager' width={post.metadata.width} height={post.metadata.height} style={{ width: '100%', height: 'auto' }} placeholder='blur' blurDataURL={post.metadata.blurUrl}></Image>
       <h1>{post.title}</h1>
