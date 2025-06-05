@@ -1,5 +1,6 @@
 ---
 key: value
+foo: bar
 ---
 
 # README.md
