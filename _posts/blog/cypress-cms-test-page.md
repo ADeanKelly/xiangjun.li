@@ -1,8 +1,8 @@
 ---
 title: Cypress CMS Test Page
 publishedDate: Sun Jun 22 2025 09:34:22 GMT-0400 (Eastern Daylight Time)
-modifiedDate: 2025-06-22T13:36:35.044Z
-thumbnail: 
+modifiedDate: 2025-06-22T13:46:55.318Z
+thumbnail: /admin/images/uploads/resized-lowRes-resized-PXL_20250228_190732750.RAW-01.COVER.jpg
 keywords: 
 ---
 
