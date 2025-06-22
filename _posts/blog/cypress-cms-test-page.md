@@ -1,5 +1,7 @@
 ---
 title: Cypress CMS Test Page
+publishedDate: 2025-06-22T14:10:08.148Z
+modifiedDate: 2025-06-22T14:10:08.148Z
 thumbnail: /admin/images/uploads/resized-lowRes-resized-PXL_20250228_190732750.RAW-01.COVER.jpg
 keywords: 
 ---
