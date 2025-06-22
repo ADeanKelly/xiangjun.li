@@ -1,10 +1,11 @@
 ---
-layout: blog
 title: Hello World
-date: fpm5/27/202502
+publishedDate: 2025-06-22T17:27:56.673Z
+modifiedDate: 2025-06-22T17:27:56.673Z
 thumbnail: /admin/images/uploads/DSCF5495.JPG
-rating: 5
+keywords: 
 ---
+
 ## Heading 2
 
 ### Heading 3
