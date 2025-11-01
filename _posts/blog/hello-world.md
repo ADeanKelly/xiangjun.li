@@ -2,7 +2,7 @@
 title: Hello World
 publishedDate: 2025-06-22T17:27:56.673Z
 modifiedDate: 2025-06-22T17:27:56.673Z
-thumbnail: DSCF5495.JPG
+thumbnail: /admin/images/uploads/DSCF5495.JPG
 keywords: 
 ---
 
