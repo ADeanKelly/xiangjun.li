@@ -15,7 +15,7 @@ export default function Home({posts}) {
             <Link href={post.slug}>
               <h2>{post.title}</h2>
             </Link>
-            <p>{post.date}</p>
+            <p>{new Date(post.publishedDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
           </figcaption>
         </figure>
       ))}
