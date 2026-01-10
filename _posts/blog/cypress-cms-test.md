@@ -1,9 +1,9 @@
 ---
 title: Cypress CMS Test Page
 publishedDate: 2025-06-22T17:05:46.741Z
-modifiedDate: 2026-01-08T01:30:00.760Z
-thumbnail: /admin/images/uploads/resized-lowRes-resized-PXL_20250228_190732750.RAW-01.COVER.jpg
-keywords: 
+modifiedDate: 2026-01-10T22:26:26.480Z
+thumbnail: /admin/images/uploads/PXL_20250228_191251351.RAW-01.COVER.jpg
+keywords: Keyword
 ---
 
 Testing the ability of the editor to save the page. Send to GitHub and check that the entry was set, and that the slug was correctly applied to the expected folder.
