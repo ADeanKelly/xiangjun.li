@@ -1,8 +1,8 @@
 ---
 title: Cypress CMS Test Page
 publishedDate: 2025-06-22T17:05:46.741Z
-modifiedDate: 2026-01-10T22:26:26.480Z
-thumbnail: /admin/images/uploads/PXL_20250228_191251351.RAW-01.COVER.jpg
+modifiedDate: 2026-01-10T22:26:40.248Z
+thumbnail: /admin/images/uploads/IMG_9019.JPG
 keywords: Keyword
 ---
 
