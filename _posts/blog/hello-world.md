@@ -2,7 +2,7 @@
 title: Hello World
 publishedDate: 2025-06-22T17:27:56.673Z
 modifiedDate: 2025-06-22T17:27:56.673Z
-thumbnail: /admin/images/uploads/DSCF5495.JPG
+thumbnail: /images/uploads/DSCF5495.JPG
 keywords: 
 ---
 
@@ -18,7 +18,7 @@ keywords:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper ipsum id velit sagittis, nec fermentum est vulputate. Sed risus sem, imperdiet pretium urna nec, varius tincidunt metus. Phasellus quis mi in nisl consectetur molestie. Morbi molestie erat vitae lorem porta, a molestie nisi dapibus. Donec sit amet eleifend mi. Etiam a justo ligula. Praesent sollicitudin nisi lectus, at fermentum diam condimentum sed. Mauris facilisis, leo vel pellentesque mattis, tortor quam tincidunt magna, ac lobortis elit lectus non orci. Nam ultrices ipsum libero, sed vulputate leo lobortis ut. Integer venenatis tellus lacus, imperdiet pellentesque dolor maximus a. Fusce eu leo placerat, lacinia nisi vel, varius nunc. Donec ultrices magna vitae dolor euismod laoreet. Donec at consequat mi. Nulla ultrices libero mauris, ut pharetra urna viverra in.
 
-![](/admin/images/uploads/DSCF5495.JPG)
+![](/images/uploads/DSCF5495.JPG)
 
 Quisque et purus in diam laoreet ornare ut eu augue. Mauris non tempor tortor, consectetur mollis dui. Etiam non sapien ac nunc ultricies auctor. Nullam at dolor sed tortor aliquam porta a ut lorem. Proin vitae porta orci. Nulla eu tincidunt enim. Integer maximus, ex ut porta elementum, leo felis consectetur justo, sed rhoncus erat odio vitae nibh. Quisque ac finibus felis, faucibus egestas turpis. Sed posuere tortor feugiat tempor vestibulum. Phasellus tincidunt, nisl ac interdum vestibulum, felis erat tempor turpis, sed porttitor eros augue non ligula.
 

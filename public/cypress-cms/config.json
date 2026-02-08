@@ -1,0 +1,106 @@
+{
+  "repo": "xiangjun.li",
+  "user": "ADeanKelly",
+  "owner": "ADeanKelly",
+  "branch": "master",
+  "key": "value",
+  "domain": "xiangjun.li",
+  "media": {
+    "folder": "public/images/uploads/",
+    "media_folder": "public/images/uploads/",
+    "public_folder": "/images/uploads/"
+  },
+  "collections": [
+    {
+      "name": "posts",
+      "label": "Blog Posts",
+      "folder": "_posts/blog/",
+      "slug": "posts",
+      "icon": "Article",
+      "frontMatter": true,
+      "media": {
+        "media_folder": "/public/posts/images/",
+        "public_folder": "/posts/images/"
+      },
+      "meta": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "title"
+        },
+        {
+          "name": "publishedDate",
+          "Label": "Date Published",
+          "type": "date_published"
+        },
+        {
+          "name": "modifiedDate",
+          "label": "Date Modified",
+          "type": "date_modified"
+        },
+        {
+          "name": "thumbnail",
+          "label": "Featured Image",
+          "type": "media"
+        },
+        {
+          "name": "keywords",
+          "label": "Keywords",
+          "type": "string",
+          "display": true
+        }
+      ],
+      "editor_default": "markdown"
+    },
+    {
+      "name": "pages",
+      "label": "Pages",
+      "folder": "_posts/pages/",
+      "domain_path": "/pages",
+      "icon": "Note_Add",
+      "slug": "pages",
+      "media": {
+        "media_folder": "/public/posts/images/",
+        "public_folder": "/posts/images/"
+      },
+      "meta": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "title"
+        },
+        {
+          "name": "publishedDate",
+          "Label": "Date Published",
+          "type": "date_published"
+        },
+        {
+          "name": "modifiedDate",
+          "label": "Date Modified",
+          "type": "date_modified"
+        },
+        {
+          "name": "thumbnail",
+          "label": "Featured Image",
+          "type": "media"
+        },
+        {
+          "name": "keywords",
+          "label": "Keywords",
+          "type": "string",
+          "display": true
+        }
+      ],
+      "editor_default": "visual"
+    }
+  ],
+  "authentication": {
+    "type": "github",
+    "user": "ADeanKelly",
+    "owner": "ADeanKelly",
+    "repo": "xiangjun.li",
+    "branch": "master",
+    "client_id": "",
+    "flow": "https://cypress-cms-auth.otaku-voice.workers.dev/auth/github"
+  }
+}
