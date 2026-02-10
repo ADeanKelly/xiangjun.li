@@ -10,6 +10,7 @@
     top: 0;
     background-color: #fff;
     font-family: var(--font-family-headline);
+    z-index: 100;
   }
 
   .headerInner {
