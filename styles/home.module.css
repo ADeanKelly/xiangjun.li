@@ -70,3 +70,52 @@
     margin: 0 auto;
   }
 }
+
+/* Container */
+.blog-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Blog Card */
+.blog-post {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Image */
+.blog-post img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Content */
+.blog-content {
+  padding: 20px 24px 28px;
+}
+
+/* Date */
+.blog-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+/* Title */
+.blog-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+/* Description */
+.blog-description {
+  font-size: 1rem;
+  color: #555;
+}

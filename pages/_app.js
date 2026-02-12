@@ -41,6 +41,9 @@ export default function App({ Component, pageProps }) {
       <span className={`${molengo.variable} ${lexend.variable} ${noto_serif_sc.variable}`}>
         <Component {...pageProps} />
       </span>
+      <footer className={styles.footer}>
+
+      </footer>
     </>
   )
 }

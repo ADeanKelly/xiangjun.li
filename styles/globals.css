@@ -28,7 +28,12 @@
 html,
 body {
   max-width: 100vw;
+  height: 100%;
   position: relative;
+}
+
+#__next {
+  height: 100%;
 }
 
 * {
@@ -53,20 +58,32 @@ img {
 }
 
 @media screen and (min-width: 0px) {
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin: 16px 0;
     font-family: var(--font-family-headline);
   }
+
   h1 {
     font-size: var(--font-700);
   }
+
   h2 {
     font-size: var(--font-600);
   }
+
   h3 {
     font-size: var(--font-550);
   }
-  h4, h5, h6 {
+
+  h4,
+  h5,
+  h6 {
     font-size: var(--font-500);
   }
 }

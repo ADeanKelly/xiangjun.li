@@ -9,6 +9,8 @@
     margin-bottom: 40px;
     top: 0;
     background-color: #fff;
+    /* background-color: #FAF9F6; */
+
     font-family: var(--font-family-headline);
     z-index: 100;
   }
@@ -53,5 +55,19 @@
 
   .navLink:hover {
     opacity: 0.7;
+  }
+
+
+  /* -------- FOOTER ------- */
+  .footer {
+    position: sticky;
+    margin: 24px 0 0;
+    padding: 16px 0;
+    width: 100%;
+    min-height: 96px;
+    top: 100vh;
+    border-top: 1px solid #e6e6e6;
+
+    /* background-color: #FAF9F6; */
   }
 }
