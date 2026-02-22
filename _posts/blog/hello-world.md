@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: 你好世界 - Hello World!
 publishedDate: 2025-06-22T17:27:56.673Z
-modifiedDate: 2025-06-22T17:27:56.673Z
+modifiedDate: 2026-02-22T18:49:29.935Z
 thumbnail: /images/uploads/DSCF5495.JPG
 keywords: 
 ---
