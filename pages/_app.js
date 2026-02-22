@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
 
           <nav className={styles.nav}>
             <Link className={styles.navLink} href={'/'}>Home</Link>
-            <Link className={styles.navLink} href={'/'}>About</Link>
+            {/* <Link className={styles.navLink} href={'/'}>About</Link> */}
           </nav>
         </div>
       </header>
