@@ -18,7 +18,7 @@ const noto_serif_sc = Noto_Serif_SC({
   weight: ['400', '600'],
   variable: '--font-family-text-chinese'
 });
-cont ma_shan_zheng = Ma_Shan_Zheng({
+const ma_shan_zheng = Ma_Shan_Zheng({
   weight: ['400', '600'],
   variable: '--font-family-headline-chinese'
 });
