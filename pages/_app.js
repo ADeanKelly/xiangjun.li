@@ -3,7 +3,7 @@ import Link from "next/link";
 import "@/styles/globals.css";
 import styles from '@/styles/general.module.css';
 
-import { Molengo, Lexend, Noto_Serif_SC } from 'next/font/google';
+import { Molengo, Lexend, Noto_Serif_SC, Ma_Shan_Zheng } from 'next/font/google';
 const molengo = Molengo({
   weight: ['400'],
   subsets: ['latin'],
@@ -17,7 +17,11 @@ const lexend = Lexend({
 const noto_serif_sc = Noto_Serif_SC({
   weight: ['400', '600'],
   variable: '--font-family-text-chinese'
-})
+});
+cont ma_shan_zheng = Ma_Shan_Zheng({
+  weight: ['400', '600'],
+  variable: '--font-family-headline-chinese'
+});
 
 export default function App({ Component, pageProps }) {
   return (
@@ -38,7 +42,7 @@ export default function App({ Component, pageProps }) {
           </nav>
         </div>
       </header>
-      <span className={`${molengo.variable} ${lexend.variable} ${noto_serif_sc.variable}`}>
+      <span className={`${molengo.variable} ${lexend.variable} ${noto_serif_sc.variable} ${ma_shan_zheng.variable}`}>
         <Component {...pageProps} />
       </span>
       <footer className={styles.footer}>
