@@ -7,19 +7,19 @@
   .article h1 {
     margin: 16px 0;
     font-size: var(--font-700);
-    font-family: var(--font-family-headline);
+    font-family: var(--font-family-headline), var(--font-family-headline-chinese);
   }
 
   .article h2 {
     margin: 16px 0;
     font-size: var(--font-600);
-    font-family: var(--font-family-headline);
+    font-family: var(--font-family-headline), var(--font-family-headline-chinese);
   }
 
   .article h3 {
     margin: 16px 0;
     font-size: var(--font-550);
-    font-family: var(--font-family-headline);
+    font-family: var(--font-family-headline), var(--font-family-headline-chinese);
   }
 
   .article h4,
@@ -27,7 +27,7 @@
   .article h6 {
     margin: 16px 0;
     font-size: var(--font-500);
-    font-family: var(--font-family-headline);
+    font-family: var(--font-family-headline), var(--font-family-headline-chinese);
   }
 
   .article p {
